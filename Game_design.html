@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href = "CSS.css">
+    <script type="text/javascript" src="Tab.js"></script>
+
+    <title>Game Design</title>
+
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="home" href="Game_page.html">Game Page</a>
+    <a href="Game_design.html">Game Design</a>
+    <a href="Team_page.html">Team Page</a>
+    <a href="media.html">Media</a>
+</div>
+
+<h1>Game Design</h1>
+
+<button class="tablink" onclick="openPage('Game Idea', this, 'red')">Game Idea</button>
+<button class="tablink" onclick="openPage('Controls', this, 'green')" id="defaultOpen">Controls</button>
+<button class="tablink" onclick="openPage('Level Design', this, 'blue')">Level Design</button>
+<button class="tablink" onclick="openPage('Gameplay', this, 'orange')">Gameplay</button>
+
+<div id="Game Idea" class="tabcontent">
+
+    <h1>Game Idea</h1>
+
+    <div class = "boxed">
+        <p> We will be creating a top down shooter using Phaser 3 which we will be hosted on a website that we have created for it.</p>
+        <p> It will have cooperative functionality where up to two players can play at once using the same device.</p>
+        <p>  The aim of the game will be to succeed against waves of enemies that will try and defeat the player.</p>
+        <p> The player will have to dodge and defeat the enemies using their weapon.</p>
+
+</div>
+
+    <h1>Inspirations</h1>
+
+    <div class = "boxed">
+
+        <p>Some inspirations that help us shape the idea of the game include games such as Furi and Hades.</p>
+        <p>Both game feature fast gameplay, tight controls and an emphasis on dodging enemy attacks while simultaneously managing your own attacks.</p>
+        <p> They are great examples of how top down games can be easy to pick up while being very fun, interactive, and challenging with a basic concept.</p>
+        <p>There is a clear goal presented to the player and the only thing that stands between them and victory is their own skill and understanding of the game</p>
+        <p> and how the player uses the mechanics to succeed against enemies.</p>
+
+</div>
+<br>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <img src="images/Furi.jpg" style="width:100%">
+            <div class="text">Furi gameplay</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+            <img src="images/Hades.jpg" style="width:100%">
+            <div class="text">Hades gameplay</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+</div>
+
+<div id="Controls" class="tabcontent">
+
+    <h1>Controls</h1>
+
+    <div class = "boxed">
+    <p>The controls for the game will require a keyboard with access to the arrow keys and the WASD buttons.</p>
+        <p>Up/W - Character moves up</p>
+        <p>Down/S - Character moves down</p>
+        <p>Left/A - Character moves left</p>
+        <p>Right/D - Character moves right</p>
+        <p>P/F - Character will shoot</p>
+        <p>Escape - Game will reset</p>
+        <p>Spacebar - Game will Pause/Unpause</p>
+    </div>
+<br>
+
+
+
+</div>
+
+<div id="Level Design" class="tabcontent">
+
+    <h1>Level Design</h1>
+
+    <div class = "boxed">
+
+        <p>The levels will be from a top down perspective, so the levels will be flat with obstacles that the player will have to navigate around while avoiding enemies as they defeat them.</p>
+        <p>  Some obstacles may help the player as they may be able to shoot through shorter obstacles that keep out enemies, while others will not be able to and may get in the way.</p>
+        <p>  The player will be in an arena style level with limited space to move around.</p>
+        <p> below is an example image of what our level design may look like.</p>
+
+    </div>
+    <br>
+
+    <img src="images/level design.jpg" alt="level design example: https://opengameart.org/content/top-down-sci-fi-shooter-pack" style="margin-left:15%;border:solid black 8px">
+</div>
+
+
+
+
+
+<div id="Gameplay" class="tabcontent">
+
+    <h1>Gameplay</h1>
+
+    <div class="boxed">
+
+        <p>The game will feature combat that allows the player to shoot while moving.</p>
+        <p>This means that the player will be able to shoot at enemies at a distance while moving away from them to avoid taking damage.</p>
+        <p>There will be different items that the players will have access to such as health recovery items and different upgrades.</p>
+        <p>Since it is a cooperative game, the two players will not be able to shoot each other but can still collide and block each other.</p>
+
+
+    </div>
+
+</div>
+
+
+</body>
+
+<script src="slideshow.js"></script>
+</html>

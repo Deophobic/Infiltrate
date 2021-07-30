@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href = "CSS.css">
+    <script type="text/javascript" src="Tab.js"></script>
+
+
+    <title>Title</title>
+</head>
+
+<body>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="home" href="Game_page.html">Game Page</a>
+    <a href="Game_design.html">Game Design</a>
+    <a href="Team_page.html">Team Page</a>
+    <a href="media.html">Media</a>
+</div>|
+
+<h1>Media</h1>
+
+<button class="tablink" onclick="openPage('Characters', this, 'red')">Characters</button>
+<button class="tablink" onclick="openPage('Story', this, 'green')" id="defaultOpen">Story</button>
+<button class="tablink" onclick="openPage('Enemies', this, 'blue')">Enemies</button>
+<div id="Characters" class="tabcontent">
+
+    <h1>Characters</h1>
+
+    <div class="row">
+        <div class="column" style="background-color: rgba(233, 233, 233, 0.6);">
+            <h2>Ethan</h2>
+
+            <img src="images/Ethan.png" alt="Ethan" style="margin-left:41%;" border=" 6px solid black"  >
+            <p>Ethan is smarter and like to plan things out.
+                They are both 19, but Ethan is an hour older than Emma, therefore acts as her “big brother”,
+                constantly making sure she is okay and that she has not left anything behind whenever they go out anywhere. </p>
+        </div>
+        <div class="column" style="background-color: rgba(198,198,198,0.6);">
+            <h2>Emma</h2>
+
+            <img src="images/Emma.png" alt="Emma" style="margin-left:43%;" border="6px solid black ">
+            <p>Emma is more energetic and impulsive and hates being treated as younger and constantly rebels against doing what she is told and likes to have her own freedom and make her own decisions.
+               She lives a life free of regret and second thoughts and never doubts herself.</p>
+    </div>
+
+    </div>
+
+
+
+</div>
+
+<div id="Story" class="tabcontent">
+
+    <h1>Story</h1>
+
+    <div class="boxed">
+
+        <p>The two twins, Emma and Ethan hear about a secret treasure situated on a nearby island. </p>
+        <p>    Emma challenges Ethan to find the treasure first and take it home to get rich. </p>
+        <p>  They set out to the island and upon entering, they were surrounded by mist and found themselves in a mysterious facility. </p>
+        <p>  They read a note placed on a nearby table and it says that they have fallen into their trap and they must win the “game” in order to get the treasure, but more importantly, get free. </p>
+        <p>  A room filled with weapons and bullets appear in front of them and they know that they must rely on each other to get out of this facility alive.</p>
+
+    </div>
+
+</div>
+
+<div id="Enemies" class="tabcontent">
+
+    <h1>Enemies</h1>
+
+    <div class="boxed">
+        <p>We will have various enemies that the player must face against including some more basic enemies such as animals or zombies. </p>
+        <p> They will start off simple and will have a different appearance based on their size and level of detail. </p>
+        <p>  The larger and more detailed the enemies are, the stronger they will be and will take multiple attacks to defeat. </p>
+        <p>  This gives the player a visual hint as to what kind of enemy they will face and can quickly plan against how to defeat them. </p>
+        <p>   If it is a melee enemy then the player can take advantage of the enemy’s short range by attacking from a distance while a ranged enemy will be harder to deal with but may take less hits to defeat.</p>
+  <p> Experimenting and learning about how to effectively handle each type of enemy is important and will help the player.</p>
+    </div>
+<br>
+
+</div>
+</body>
+</html>
